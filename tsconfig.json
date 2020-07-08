@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "outDir": "./build"
+  },
+  "exclude": ["**/node_modules"],
+  "include": [
+    "src",
+    "test",
+    "@types"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ts-mocha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13",
+    "algosdk": "^1.6.2",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register --require source-map-support/register ./test/*.ts"
+  }
+}
